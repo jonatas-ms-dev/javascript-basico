@@ -1,4 +1,4 @@
-main(10, 4);
+main(6.0, 2.0);
 
 /*desafio do código 1
 console.log("Olá mundo");
@@ -11,9 +11,17 @@ function main(textoLido) {
 }
 */
 
-//desafio do código 3
+/*desafio do código 3
 //Função
 function main(valor1, valor2) {
   console.log(Number(valor1) + Number(valor2));
   console.log(Number(valor1) - Number(valor2));
+}
+*/
+
+//desafio do código 4
+//Função
+function main(valor1, valor2) {
+  console.log((valor1 / valor2).toPrecision(4));
+  console.log((valor1 * valor2).toPrecision(4));
 }
