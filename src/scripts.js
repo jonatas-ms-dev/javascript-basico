@@ -1,21 +1,34 @@
+main(7, 7);
+
 /*desafio do código 1
 console.log("Olá mundo");
 */
 
-//desafio do código 2
-//Se preparando para ler dados da entrada padrão
-const stdin = process.openStdin();
-
-//Lendo dados
-stdin.addListener("data", (text) => {
-  const textoLido = text.toString().trim();
-
-  stdin.pause(); // stop reading
-
-  main(Number(textoLido));
-});
-
+/*desafio do código 2
 //Função
 function main(textoLido) {
   console.log(Number.isInteger(textoLido));
+}
+*/
+
+/*desafio do código 3
+//Função
+function main(valor1, valor2) {
+  console.log(Number(valor1) + Number(valor2));
+  console.log(Number(valor1) - Number(valor2));
+}
+*/
+
+/*desafio do código 4
+//Função
+function main(valor1, valor2) {
+  console.log((valor1 / valor2).toPrecision(4));
+  console.log((valor1 * valor2).toPrecision(4));
+}
+*/
+
+//desafio do código 5
+//Função
+function main(valor1, valor2) {
+  console.log(valor1 === valor2 ? 1 : 0);
 }
