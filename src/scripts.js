@@ -1,5 +1,3 @@
-main(7, 7);
-
 /*desafio do código 1
 console.log("Olá mundo");
 */
@@ -27,8 +25,31 @@ function main(valor1, valor2) {
 }
 */
 
-//desafio do código 5
+/*desafio do código 5
 //Função
 function main(valor1, valor2) {
   console.log(valor1 === valor2 ? 1 : 0);
 }
+*/
+//desafio do código 6
+try {
+  var nome = "Treinaweb";
+  let curso = "JavaScript Básico";
+  const PI = 3.14;
+
+  //Não precisa se preocupar com este código
+  try {
+    PI = 3;
+    console.log("A variável definida precisa ser uma constante!");
+  } catch (e) {
+    console.log(PI);
+  }
+
+  console.log(curso);
+} catch (e) {}
+
+console.log(nome);
+
+try {
+  console.log(curso);
+} catch (e) {}
